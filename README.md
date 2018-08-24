@@ -6,7 +6,7 @@
 
     - python 完成自动化：截图后将剪贴板中的图片，上传至github中的图片仓库。同时获取图片外链，输出到剪贴板中；
 
-    - AutoHotKey 快捷键部署：使用 ctrl+shift+v 执行 python 程序并输出剪贴板中的外链到屏幕
+    - AutoHotKey 快捷键部署：使用 ctrl+shift+v 执行 python 程序并输出剪贴板中的外链到markdown编辑器。
 
 - 效果演示
 
@@ -21,9 +21,7 @@
 ```
 pip install -r requirement.txt
 ```
-- Windows 10 (64 bit)
-
-其它环境未测试
+- 适用环境：Windows 10 (64 bit)
 
 ## Usage
 
@@ -53,7 +51,7 @@ pip install -r requirement.txt
   
     若已有 .ahk 脚本在运行，则将 autoUploadPicToGithub.ahk 中的内容添加到你的 .ahk 脚本中，reload 即可；
 
-1. 使用任意截图工具截图后，按下 Ctrl + shift + v，程序将剪贴板中的截图上传至七牛图床并将所得外链以 markdown 图片格式重组后输出到屏幕。
+1. 使用任意截图工具截图后，按下 Ctrl + shift + v，程序将剪贴板中的截图上传至github**截图专用repo**，并将所得外链以 markdown 图片格式输出至Markdown编辑器。
 
 ##  Reference Project
 
