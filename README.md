@@ -10,7 +10,7 @@
 
 - 效果演示
 
-![img]()
+![img](https://raw.githubusercontent.com/hamburgduo/mdpicker-github/master/static/open.gif)
 
 - 自动为截图添加阴影
 
